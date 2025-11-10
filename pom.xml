@@ -25,14 +25,16 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
-            <version>${jackson.version}</version>
+            <!-- pinned version   <version>${jackson.version}</version> -->
+            <version>[2.0,)</version>
         </dependency>
         
         <!-- Jackson Databind -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>${jackson.version}</version>
+            <!-- pinned version   <version>${jackson.version}</version> -->
+            <version>[2.0,)</version>
         </dependency>
     </dependencies>
 
